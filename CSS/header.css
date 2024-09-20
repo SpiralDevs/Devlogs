@@ -10,7 +10,6 @@
     /* background-color: #222; */
     position: relative;
     width: 100%;
-    max-width: 1200px; /* Keeps it centered on larger screens */
     margin: 0 auto;
 
     z-index: 1000;
@@ -63,7 +62,6 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Adjust as needed */
     margin: 0 auto; /* Centers the header horizontally */
 }
 
@@ -71,7 +69,6 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 1200px; /* Keep this width consistent */
     padding: 0 20px;
 }
 
