@@ -104,6 +104,35 @@ main {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker overlay */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* Adjusted for better centering */
+  padding: 30px;
+  border: 1px solid #888;
+  width: 70%; /* Adjusted for better layout */
+  border-radius: 10px; /* Added rounded corners */
+}
+
+/* Sidebar */
+.w3-sidebar {
+  width: 120px;
+  background: #222;
+}
+
 /* Buttons and Links */
 a, button {
   border: 0;
@@ -207,6 +236,67 @@ footer .social-links img:hover {
   p {
     font-size: 1.1rem;
   }
+}
+
+/* Custom Elements */
+.postmedia {
+  position: sticky;
+  top: 0px;
+  padding: 10px 0px;
+}
+
+.divv {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.heartpos {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: -95%;
+}
+
+.postout,
+.postoutj,
+.postoutf,
+.postoutsmol,
+.postoutn {
+  border-radius: 25px;
+  background: grey;
+}
+
+.postout {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 85%;
+}
+
+.postoutj {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 85%;
+  height: 120px;
+}
+
+.postoutf {
+  margin-left: 3%;
+  padding: 20px;
+  width: 94%;
+  height: 94%;
+}
+
+.postoutsmol {
+  width: 97%;
+  height: 94%;
+}
+
+.postoutn {
+  padding: 20px;
+  width: 100%;
+  height: 15%;
 }
 
 /* Animations */
