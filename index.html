@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="icon" type="image/x-icon" href="spiral.ico">
+    <link rel="icon" type="image/x-icon" href="spiral.ico?">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Devlogs - SpiralDevs</title>
+    <title>Portfolio - SpiralDevs</title>
 
     <meta content="SpiralDevs" property="og:title" />
-    <meta content="Spiral's Devlogs" property="og:description" />
+    <meta content="Portfolio of SpiralDevs" property="og:description" />
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/index.css">
-    <link rel="stylesheet" href="CSS/devlogs.css">
+    <link rel="stylesheet" href="CSS/portfolio.css">
 </head>
-
 <body>
     <div class="top-bar">
         <div class="home-icon">
@@ -41,31 +39,38 @@
         </div>
     </div>
 
-    <section id="devlogs-text">
-        <h1>Development Logs</h1>
-        <p>Explore the latest updates and insights from our development journey.</p>
+    <section id="portfolio-text" class="container">
+        <h1>Portfolio</h1>
     </section>
-    
-    <section id="devlogs" class="container">
-        <div class="log-container">
-            <div class="log-entry">
-                <h2>Log Entry 1</h2>
-                <p>This is a description of log entry 1, detailing what was accomplished.</p>
-                <div class="log-entry-buttons">
-                    <a href="#" class="log-button">Read More</a>
-                    <a href="#" class="log-button">View Changes</a>
-                </div>
+
+    <section id="portfolio" class="container">
+        <div class="project">
+            <img src="Images/png/igmm.png" alt="Isle Goblin Mod Maker Icon">
+            <div class="project-content">
+                <h2>Isle Goblin Mod Maker (IGMM)</h2>
+                <p>Open-source Python Software to make mods for Isle Goblin.</p>
+                <p>Easy to use and powerful</p>
+                <br>
+                <p>Made by Spiral and Echo</p>
+            </div>
+            <div class="project-buttons">
+                <a href="https://echothedeveloper.itch.io/igmm" class="button">Itch Link</a>
+                <a href="https://github.com/EchoTheDeveloper/Isle-Goblin-Mod-Maker" class="button">Github</a>
             </div>
         </div>
-
-        <div class="log-container">
-            <div class="log-entry">
-                <h2>Log Entry 2</h2>
-                <p>This is a description of log entry 2, detailing what was accomplished.</p>
-                <div class="log-entry-buttons">
-                    <a href="#" class="log-button">Read More</a>
-                    <a href="#" class="log-button">View Changes</a>
-                </div>
+        <div class="project">
+            <img src="Images\png\bepinstaller.png" alt="Project Image">
+            <div class="project-content">
+                <h2>BepInstaller</h2>
+                <p>An Open Source BepInEX Installer made from Python</p>
+                <br>
+                <p>1. Give name of folder or give directory to game</p>
+                <p>2. Select ANY version of BepInEX</p>
+                <p>3. Press Install BepInEX</p>
+            </div>
+            <div class="project-buttons">
+                <a href="https://spirallikespc.itch.io/bepinstaller" class="button">Itch Link</a>
+                <a href="https://github.com/SpiralDevs/BepInstaller" class="button">Github</a>
             </div>
         </div>
     </section>
