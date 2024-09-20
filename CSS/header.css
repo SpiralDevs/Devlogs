@@ -54,15 +54,20 @@
 }
 
 
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 0 auto; /* Centers the header horizontally */
 }
 
 .nav-container {
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: 0 auto; /* Centers the header horizontally */
 }
 
 .nav_links {
